@@ -18,7 +18,7 @@ def mut_func(a, b):
 
 @app.get("/")
 def home():
-    return {"status":"Online", "message":"這是簡易計算機API"}
+    return {"status": "Online", "message": "這是簡易計算機API"}
 
 @app.get("/add")
 def calculate_add(a: float, b: float):
